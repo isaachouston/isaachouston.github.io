@@ -10,8 +10,6 @@ export default createGlobalStyle`
   }
 
   body {
-
-
     background: #4545E5;
     -webkit-font-smoothing: antialiased
   }
@@ -20,8 +18,6 @@ export default createGlobalStyle`
   body, input, button {
     font: 16px "Salsa", sans-serif;
   }
-
-
 
   button {
     cursor: pointer;

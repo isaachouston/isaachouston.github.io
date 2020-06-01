@@ -5,7 +5,7 @@ export const Container = styled.div`
   justify-content: space-between;
   max-width: 90%;
   padding: 20px 10px;
-  margin: 0px auto;
+  margin: 0 auto;
 `;
 
 export const GrettingTextDiv = styled.div`

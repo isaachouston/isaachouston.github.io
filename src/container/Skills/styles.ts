@@ -5,16 +5,30 @@ export const Container = styled.div`
   justify-content: space-between;
   max-width: 90%;
   padding: 20px 10px;
-  margin: 0px auto;
-  top: 5em;
+  margin: 5em auto;
 `;
 
 export const SkillImgDiv = styled.div`
   width: 45%;
-  top: 70;
+
   img {
     max-width: 100%;
-
     height: auto;
+  }
+`;
+
+export const SkillsDiv = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  line-height: 2.8em;
+  h1 {
+    font-size: 40px;
+    color: #ddd;
+  }
+
+  p {
+    font-size: 23px;
+    color: #090818;
   }
 `;
