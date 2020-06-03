@@ -6,7 +6,7 @@ const Header: React.FC = () => {
     <Container>
       <Logo>
         <a href="/">
-          <h1> &lt; Isaac Houston /&gt; </h1>
+          <h1> Isaac Houston </h1>
         </a>
       </Logo>
       <Lista>

@@ -24,11 +24,11 @@ export const SkillsDiv = styled.div`
   line-height: 2.8em;
   h1 {
     font-size: 40px;
-    color: #ddd;
+    color: #ccc;
   }
 
   p {
     font-size: 23px;
-    color: #090818;
+    color: rgba(4, 18, 48, 0.9);
   }
 `;

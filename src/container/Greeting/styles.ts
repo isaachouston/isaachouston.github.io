@@ -15,9 +15,10 @@ export const GrettingTextDiv = styled.div`
   width: 47%;
   h1 {
     font-size: 45px;
-    color: #ddd;
+    color: #ccc;
   }
   p {
+    color: rgba(4, 18, 48, 0.9);
     font-size: 22px;
     margin: 10px 0;
   }

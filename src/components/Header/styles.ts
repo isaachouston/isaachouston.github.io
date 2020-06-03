@@ -20,7 +20,7 @@ export const Logo = styled.div`
       font-family: 'OrtisanSignature';
       font-weight: bold;
       padding: 0 5px;
-      color: #ddd;
+      color: #ccc;
     }
     span {
       color: #ccc;
@@ -38,7 +38,7 @@ export const Lista = styled.ul`
 
     li {
       margin-left: 30px;
-      color: #ddd;
+      color: #ccc;
     }
   }
 `;

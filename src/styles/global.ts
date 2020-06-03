@@ -7,6 +7,7 @@ export default createGlobalStyle`
     padding: 0;
     outline: 0;
     box-sizing: border-box;
+
   }
 
   body {
@@ -16,7 +17,7 @@ export default createGlobalStyle`
 
 
   body, input, button {
-    font: 16px "Salsa", sans-serif;
+    font: 16px "Raleway", sans-serif;
   }
 
   button {
