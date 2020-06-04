@@ -5,7 +5,7 @@ export const Container = styled.div`
   justify-content: space-between;
   max-width: 90%;
   padding: 20px 10px;
-  margin: 5em auto;
+  margin: 1.5em auto 6.5em auto;
 `;
 
 export const SkillImgDiv = styled.div`
@@ -23,12 +23,13 @@ export const SkillsDiv = styled.div`
   width: 45%;
   line-height: 2.8em;
   h1 {
-    font-size: 40px;
-    color: #ccc;
+    font-size: 35px;
+    color: #111;
   }
 
   p {
-    font-size: 23px;
-    color: rgba(4, 18, 48, 0.9);
+    font-size: 15px;
+    text-transform: uppercase;
+    color: rgba(1, 1, 1, 0.3);
   }
 `;

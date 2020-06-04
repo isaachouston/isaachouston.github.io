@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { shade } from 'polished';
 
 export const Container = styled.div`
   display: flex;
@@ -20,10 +21,14 @@ export const Logo = styled.div`
       font-family: 'OrtisanSignature';
       font-weight: bold;
       padding: 0 5px;
-      color: #ccc;
+      color: #e14b5a;
+      transition: color 0.4s;
+      &:hover {
+        color: ${shade(0.2, '#e14b5a')};
+      }
     }
     span {
-      color: #ccc;
+      color: #111;
     }
   }
 `;
@@ -35,10 +40,13 @@ export const Lista = styled.ul`
 
   a {
     text-decoration: none;
-
+    transition: color 0.4s;
     li {
       margin-left: 30px;
-      color: #ccc;
+      color: #111;
+      &:hover {
+        color: ${shade(0.1, '#e14b5a')};
+      }
     }
   }
 `;

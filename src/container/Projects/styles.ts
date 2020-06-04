@@ -3,10 +3,10 @@ import styled from 'styled-components';
 export const Container = styled.div`
   max-width: 90%;
   padding: 20px 10px;
-  margin: 0 auto;
+  margin: 1.5em auto 6.5em auto;
   h1 {
-    color: #ccc;
-    font-size: 40px;
+    color: #111;
+    font-size: 35px;
     margin-bottom: 1.6em;
   }
 
@@ -16,12 +16,16 @@ export const Container = styled.div`
 `;
 
 export const RepositoryDiv = styled.div`
-  background: #ccc;
   width: 220px;
+  color: rgb(88, 96, 105);
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.2) 1px 10px 30px -15px;
+  padding: 2rem;
+  cursor: pointer;
   height: 150px;
   border-radius: 2px;
   transition: transform 0.2s linear;
-  color: rgba(4, 18, 48, 0.9);
+
   padding: 10px;
 
   &:hover {
@@ -34,5 +38,14 @@ export const RepositoryDiv = styled.div`
     font-weight: bold;
     bottom: 20px;
     position: absolute;
+    color: #e14b5a;
+  }
+`;
+
+export const ArrowConfig = styled.div`
+  .slick-arrow {
+    background-color: #bbb;
+    box-shadow: rgba(0, 0, 0, 0.2) 1px 10px 30px -15px;
+    border-radius: 50%;
   }
 `;

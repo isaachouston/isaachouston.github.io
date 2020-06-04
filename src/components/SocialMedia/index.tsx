@@ -1,21 +1,25 @@
 import React from 'react';
 import { FaFacebook, FaGithub, FaLinkedin, FaGoogle } from 'react-icons/fa';
+import { GrMail } from 'react-icons/gr';
 
 import { Container } from './styles';
 
 const SocialMedia: React.FC = () => {
   return (
     <Container>
-      <a href="https://github.com/isaachouston">
+      <a id="github" href="https://github.com/isaachouston">
         <FaGithub />
       </a>
-      <a href="https://www.linkedin.com/in/isaac-houston-6068ba10a/">
+      <a
+        id="linkedin"
+        href="https://www.linkedin.com/in/isaac-houston-6068ba10a/"
+      >
         <FaLinkedin />
       </a>
-      <a href="isaacprh@gmail.com">
-        <FaGoogle />
+      <a id="email" href="mailto:isaacprh@gmail.com">
+        <GrMail />
       </a>
-      <a href="https://www.facebook.com/isaac.houston.9">
+      <a id="facebook" href="https://www.facebook.com/isaac.houston.9">
         <FaFacebook />
       </a>
     </Container>

@@ -4,7 +4,7 @@ export const Container = styled.div`
   display: flex;
 
   a {
-    color: #ccc;
+    color: #9c9ca1;
     font-size: 1.3rem;
     height: 2.6rem;
     line-height: 2.6rem;
@@ -15,7 +15,7 @@ export const Container = styled.div`
 
     &:hover {
       transition: 0.5s;
-      color: rgba(4, 18, 48, 0.9);
+      color: rgba(1, 1, 1, 0.1);
     }
   }
 `;

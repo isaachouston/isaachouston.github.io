@@ -8,7 +8,7 @@ export const Container = styled.div`
 
 export const Icon = styled.ul`
   list-style: none;
-  color: #ccc;
+  color: #9c9ca1;
   font-size: 50px;
   display: flex;
 
@@ -16,8 +16,8 @@ export const Icon = styled.ul`
     margin-right: 10px;
 
     &:hover {
-      color: rgba(4, 18, 48, 0.9);
-      transition: 0.5s ease-in;
+      color: rgba(1, 1, 1, 0.1);
+      transition: 0.3s ease-in;
     }
   }
 `;

@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react';
+import { Fade } from 'react-awesome-reveal';
 
 import Slider from 'react-slick';
 
 import api from '../../services/api';
-import settingSlider from '../../portifolio';
+import settingSlider from '../../configSlider';
 
-import { Container, RepositoryDiv } from './styles';
+import { Container, RepositoryDiv, ArrowConfig } from './styles';
 
 interface Repository {
   id: number;
@@ -32,20 +33,23 @@ const Projects: React.FC = () => {
   }, []);
 
   return (
-    <Container id="projects">
-      <h1>Projetos</h1>
-
-      <Slider {...settingSlider}>
-        {repositories.map(repository => (
-          <a key={repository.id} href={repository.html_url}>
-            <RepositoryDiv>
-              <h3>{repository.name}</h3>
-              <p>{repository.language}</p>
-            </RepositoryDiv>
-          </a>
-        ))}
-      </Slider>
-    </Container>
+    <Fade direction="bottom" delay={1000} triggerOnce>
+      <Container id="projects">
+        <h1>Projetos</h1>
+        <ArrowConfig>
+          <Slider {...settingSlider}>
+            {repositories.map(repository => (
+              <a key={repository.id} href={repository.html_url}>
+                <RepositoryDiv>
+                  <h3>{repository.name}</h3>
+                  <p>{repository.language}</p>
+                </RepositoryDiv>
+              </a>
+            ))}
+          </Slider>
+        </ArrowConfig>
+      </Container>
+    </Fade>
   );
 };
 

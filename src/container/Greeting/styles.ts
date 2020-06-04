@@ -5,7 +5,7 @@ export const Container = styled.div`
   justify-content: space-between;
   max-width: 90%;
   padding: 20px 10px;
-  margin: 0 auto;
+  margin: 1.5em auto 6.5em auto;
 `;
 
 export const GrettingTextDiv = styled.div`
@@ -14,11 +14,11 @@ export const GrettingTextDiv = styled.div`
   flex-direction: column;
   width: 47%;
   h1 {
-    font-size: 45px;
-    color: #ccc;
+    font-size: 35px;
+    color: #111;
   }
   p {
-    color: rgba(4, 18, 48, 0.9);
+    color: rgba(1, 1, 1, 0.3);
     font-size: 22px;
     margin: 10px 0;
   }
@@ -27,7 +27,7 @@ export const GrettingTextDiv = styled.div`
 export const GrettingImgDiv = styled.div`
   width: 43%;
   img {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
     top: 70px;
     right: 0;

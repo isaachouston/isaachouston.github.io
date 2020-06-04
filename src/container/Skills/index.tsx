@@ -1,6 +1,7 @@
 import React from 'react';
+import { Fade } from 'react-awesome-reveal';
 
-import SkillImg from '../../assets/developerActivity.svg';
+import SkillImg from '../../assets/developer_activity.svg';
 
 import ProfessionalSkills from '../../components/ProfessionalSkills';
 
@@ -8,7 +9,7 @@ import { Container, SkillImgDiv, SkillsDiv } from './styles';
 
 const Skills: React.FC = () => {
   return (
-    <>
+    <Fade direction="right" delay={1000} triggerOnce>
       <Container id="skills">
         <SkillImgDiv>
           <img src={SkillImg} alt="developer activity" />
@@ -19,7 +20,7 @@ const Skills: React.FC = () => {
           <ProfessionalSkills />
         </SkillsDiv>
       </Container>
-    </>
+    </Fade>
   );
 };
 
