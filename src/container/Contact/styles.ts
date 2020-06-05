@@ -14,7 +14,7 @@ export const ContactDiv = styled.div`
 
   h1 {
     margin-bottom: 1em;
-    font-size: 26px;
+    font-size: 30px;
     color: #111;
   }
   p {

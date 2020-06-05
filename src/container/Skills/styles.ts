@@ -28,7 +28,7 @@ export const SkillsDiv = styled.div`
   }
 
   p {
-    font-size: 15px;
+    font-size: 18px;
     text-transform: uppercase;
     color: rgba(1, 1, 1, 0.3);
   }

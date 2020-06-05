@@ -14,13 +14,13 @@ export const GrettingTextDiv = styled.div`
   flex-direction: column;
   width: 47%;
   h1 {
-    font-size: 35px;
+    font-size: 45px;
     color: #111;
   }
   p {
     color: rgba(1, 1, 1, 0.3);
     font-size: 22px;
-    margin: 10px 0;
+    margin: 20px 0;
   }
 `;
 

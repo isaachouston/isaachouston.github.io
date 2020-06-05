@@ -8,6 +8,6 @@ export const Container = styled.footer`
   margin-bottom: 20px;
 
   p {
-    font-size: 13px;
+    font-size: 15px;
   }
 `;

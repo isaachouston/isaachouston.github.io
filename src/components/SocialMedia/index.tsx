@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebook, FaGithub, FaLinkedin, FaGoogle } from 'react-icons/fa';
+import { FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { GrMail } from 'react-icons/gr';
 
 import { Container } from './styles';

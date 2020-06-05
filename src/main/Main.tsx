@@ -6,6 +6,7 @@ import Skills from '../container/Skills';
 import Projects from '../container/Projects';
 import Contact from '../container/Contact';
 import Footer from '../components/Footer';
+import TopPage from '../container/TopPage';
 
 const Main: React.FC = () => {
   return (
@@ -16,6 +17,7 @@ const Main: React.FC = () => {
       <Projects />
       <Contact />
       <Footer />
+      <TopPage />
     </>
   );
 };

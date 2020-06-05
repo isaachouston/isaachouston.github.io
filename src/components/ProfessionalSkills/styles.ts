@@ -9,7 +9,7 @@ export const Container = styled.div`
 export const Icon = styled.ul`
   list-style: none;
   color: #9c9ca1;
-  font-size: 50px;
+  font-size: 60px;
   display: flex;
 
   li {

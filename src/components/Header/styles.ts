@@ -15,7 +15,8 @@ export const Logo = styled.div`
     display: flex;
     align-items: center;
     text-decoration: none;
-    font-size: 1em;
+    font-size: 1.5em;
+    behavior: smooth;
 
     h1 {
       font-family: 'OrtisanSignature';
@@ -36,11 +37,12 @@ export const Lista = styled.ul`
   display: flex;
   list-style: none;
   overflow: hidden;
-  margin-right: 50px;
+  margin-right: 70px;
 
   a {
     text-decoration: none;
     transition: color 0.4s;
+    font-size: 19px;
     li {
       margin-left: 30px;
       color: #111;
