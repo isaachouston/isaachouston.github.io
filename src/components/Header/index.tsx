@@ -6,7 +6,7 @@ import { Container, Logo, Lista } from './styles';
 const Header: React.FC = () => {
   return (
     <Container>
-      <Flip delay={1000} triggerOnce>
+      <Flip delay={1300} triggerOnce>
         <Logo>
           <a href="/">
             <h1> Isaac </h1>

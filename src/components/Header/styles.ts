@@ -8,6 +8,11 @@ export const Container = styled.div`
   max-width: 90%;
   padding: 20px 10px;
   margin: 0px auto;
+
+  @media (max-width: 48em) {
+    display: flex;
+    flex-direction: column;
+  }
 `;
 
 export const Logo = styled.div`
@@ -38,6 +43,11 @@ export const Lista = styled.ul`
   list-style: none;
   overflow: hidden;
   margin-right: 70px;
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0;
+  }
 
   a {
     text-decoration: none;
@@ -46,6 +56,10 @@ export const Lista = styled.ul`
     li {
       margin-left: 30px;
       color: #111;
+      @media (max-width: 48em) {
+        margin: 1em 0 1em 0;
+      }
+
       &:hover {
         color: ${shade(0.1, '#e14b5a')};
       }

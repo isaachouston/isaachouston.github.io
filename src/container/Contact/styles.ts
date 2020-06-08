@@ -7,6 +7,12 @@ export const Container = styled.div`
   margin: 5em auto;
   display: flex;
   align-items: center;
+
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
 `;
 
 export const ContactDiv = styled.div`
@@ -60,6 +66,11 @@ export const ContactDiv = styled.div`
       }
     }
   }
+
+  @media (max-width: 768px) {
+    width: 90%;
+    text-align: center;
+  }
 `;
 
 export const ContactImgDiv = styled.div`
@@ -69,5 +80,8 @@ export const ContactImgDiv = styled.div`
     max-width: 100%;
     height: auto;
     margin-left: 40px;
+  }
+  @media (max-width: 768px) {
+    display: none;
   }
 `;

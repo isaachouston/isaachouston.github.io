@@ -21,16 +21,13 @@ const TopPage: React.FC = () => {
   window.addEventListener('scroll', checkScrollTop);
 
   return (
-    <Container>
-      <FaArrowCircleUp
-        className="scrollTop"
-        onClick={scrollTop}
-        size={40}
-        style={{
-          color: '#e14b5a',
-          display: showScroll ? 'flex' : 'none',
-        }}
-      />
+    <Container
+      style={{
+        color: '#e14b5a',
+        display: showScroll ? 'flex' : 'none',
+      }}
+    >
+      <FaArrowCircleUp className="scrollTop" onClick={scrollTop} size={40} />
     </Container>
   );
 };

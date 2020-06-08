@@ -13,6 +13,13 @@ export const Container = styled.div`
   a {
     text-decoration: none;
   }
+
+  @media (max-width: 768px) {
+    max-width: 100%;
+    h1 {
+      text-align: center;
+    }
+  }
 `;
 
 export const RepositoryDiv = styled.div`

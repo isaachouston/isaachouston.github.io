@@ -5,7 +5,12 @@ export const Container = styled.div`
   justify-content: space-between;
   max-width: 90%;
   padding: 20px 10px;
-  margin: 1.5em auto 6.5em auto;
+  margin: 1.5em auto 5.5em auto;
+
+  @media (max-width: 768px) {
+    max-width: 100%;
+    flex-direction: column-reverse;
+  }
 `;
 
 export const GrettingTextDiv = styled.div`
@@ -22,6 +27,17 @@ export const GrettingTextDiv = styled.div`
     font-size: 22px;
     margin: 20px 0;
   }
+
+  @media (max-width: 768px) {
+    width: 100%;
+    text-align: center;
+    h1 {
+      font-size: 30px;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
 `;
 
 export const GrettingImgDiv = styled.div`
@@ -32,12 +48,27 @@ export const GrettingImgDiv = styled.div`
     top: 70px;
     right: 0;
   }
+  @media (max-width: 768px) {
+    width: 90%;
+    img {
+      max-width: 100%;
+    }
+  }
 `;
 
 export const GrettingButtonDiv = styled.div`
   display: flex;
   flex-direction: row;
+  max-width: 100%;
   a {
     margin-right: 30px;
+  }
+
+  @media (max-width: 768px) {
+    width: 100%;
+    justify-content: center;
+    a {
+      margin-right: 0px;
+    }
   }
 `;

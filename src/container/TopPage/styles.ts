@@ -12,7 +12,7 @@ export const Container = styled.button`
   padding: 15px;
   border-radius: 50%;
   font-size: 25px;
-  background: #fff;
+  background: transparent;
 
   transition: opacity 0.4s;
   opacity: 0.5;

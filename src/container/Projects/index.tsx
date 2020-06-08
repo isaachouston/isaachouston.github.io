@@ -26,7 +26,6 @@ const Projects: React.FC = () => {
       const repository = response.data;
 
       setRepositories(repository);
-      console.log(repository);
     }
 
     loadProject();
