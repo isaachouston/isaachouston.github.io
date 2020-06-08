@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.css"],"names":[],"mappings":"AAAA,WACE,8BAA+B,CAC/B,iBAAkB,CAClB,eAAiB,CACjB,oDACF","file":"main.3f66b888.chunk.css","sourcesContent":["@font-face {\n  font-family: 'OrtisanSignature';\n  font-style: normal;\n  font-weight: bold;\n  src: url('./assets/fonts/OrtisanSignature.ttf');\n}\n"]}
