@@ -6,15 +6,15 @@ export const Container = styled.button`
   border-radius: 5px;
   border: 0;
   padding: 0 16px;
-  background: #e14b5a;
+  background: #f24130;
   margin-top: 15px;
   text-transform: uppercase;
-  color: #111;
+  color: #edf1f3;
   margin-right: 20px;
 
   transition: background-color 0.4s;
 
   &:hover {
-    background: ${shade(0.4, '#e14b5a')};
+    background: ${shade(0.4, '#F24130')};
   }
 `;

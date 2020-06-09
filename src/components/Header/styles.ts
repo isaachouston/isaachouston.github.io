@@ -27,10 +27,10 @@ export const Logo = styled.div`
       font-family: 'OrtisanSignature';
       font-weight: bold;
       padding: 0 5px;
-      color: #e14b5a;
+      color: #f24130;
       transition: color 0.4s;
       &:hover {
-        color: ${shade(0.2, '#e14b5a')};
+        color: ${shade(0.2, '#f24130')};
       }
     }
     span {
@@ -61,7 +61,7 @@ export const Lista = styled.ul`
       }
 
       &:hover {
-        color: ${shade(0.1, '#e14b5a')};
+        color: ${shade(0.1, '#f24130')};
       }
     }
   }

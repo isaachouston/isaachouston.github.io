@@ -45,7 +45,7 @@ export const RepositoryDiv = styled.div`
     font-weight: bold;
     bottom: 20px;
     position: absolute;
-    color: #e14b5a;
+    color: #f24130;
   }
 `;
 

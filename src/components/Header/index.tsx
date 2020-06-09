@@ -9,8 +9,7 @@ const Header: React.FC = () => {
       <Flip delay={1300} triggerOnce>
         <Logo>
           <a href="/">
-            <h1> Isaac </h1>
-            <h1> Houston </h1>
+            <h1> Isaac Houston</h1>
           </a>
         </Logo>
       </Flip>

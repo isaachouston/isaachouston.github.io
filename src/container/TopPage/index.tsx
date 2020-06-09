@@ -23,7 +23,7 @@ const TopPage: React.FC = () => {
   return (
     <Container
       style={{
-        color: '#e14b5a',
+        color: '#f24130',
         display: showScroll ? 'flex' : 'none',
       }}
     >
