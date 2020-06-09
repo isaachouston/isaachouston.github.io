@@ -18,7 +18,9 @@ const Greeting: React.FC = () => {
       <Container>
         <GrettingTextDiv>
           <h1>Oi, sou Isaac Houston</h1>
-          <p>Desenvolvedor web, com base em NodeJS, ReactJS, React Native</p>
+          <p>
+            Desenvolvedor de software, com base em NodeJS, ReactJS, React Native
+          </p>
           <SocialMedia />
           <GrettingButtonDiv>
             <a href="#contact">
